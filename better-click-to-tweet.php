@@ -67,5 +67,10 @@ function bctt_on_uninstall(){
 
 register_uninstall_hook(    __FILE__, 'bctt_on_uninstall' );
 
+function bctt_options_link($links) { 
+  $settings_link = '<a href="options-general.php?page=better-click-to-tweet">Settings</a>'; 
+  array_unshift( $links, $settings_link ); 
+  return $links; 
+}
 $bcttlink = plugin_basename(__FILE__); 
 add_filter("plugin_action_links_$bcttlink", 'bctt_options_link' );
