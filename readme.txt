@@ -55,7 +55,7 @@ I am active in [the support forums](https://wordpress.org/support/plugin/better-
 == Changelog ==
 
 = 0.3 =
-*added margin on the bottom of the bcct-clicktotweet div
+* added margin on the bottom of the bcct-clicktotweet div
 
 = 0.2 =
 * fixed a bug that was not displaying the CSS correctly.
