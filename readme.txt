@@ -1,10 +1,10 @@
 === Better Click To Tweet ===
-Contributors: BenUNC
+Contributors: ben.meredith@gmail.com
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ
-Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, auto post
+Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,11 @@ This plugin allows you to create beautiful Click To Tweet boxes anywhere in your
 
 This plugin allows you to easily create tweetable content for your readers. Using a simple shortcode, your selected text is highlighted and made tweetable.
 
+This is a complete retool of the late "Click To Tweet" plugin by Todaymade. It now uses the WordPress shortcode API, making it more secure, and I've cleaned up the CSS from the old plugin. Perhaps most significantly, I removed the "powered by Coschedule" link.
+
+Don't be scared to donate, if this plugin makes your blogging life any better.
+
+Also, developers, please hop in and suggest improvements. You can submit pull requests at the [github repo](https://github.com/Benunc/better-click-to-tweet "plugin github repo") for this plugin, or go through the official svn repo here. 
 
 == Installation ==
 
@@ -32,14 +37,21 @@ This plugin allows you to easily create tweetable content for your readers. Usin
 
 == Frequently Asked Questions ==
 
-
 = How Does Click To Tweet Work? =
-
 Click To Tweet is a simple plugin that enables you to create beautiful Click To Tweet boxes in your blog posts. By either using simple code or a one-click in your editor, you can generate a custom tweet-able message for your blog readers.
+
+= What do I do if it's not working right? =
+I am active in [the support forums] (https://wordpress.org/support/plugin/better-click-to-tweet "Better CTT Support"), and in patching the plugin. Start a thread there, and I will gladly help you out. Most of the time you can expect a few hours before a response. I'm in the Eastern US, and I like playing with my kids at night, so you might not hear back immediately. Don't panic. 
+
+
 
 == Screenshots ==
 
 == Changelog ==
+
+= 0.2 =
+* fixed a bug that was not displaying the CSS correctly.
+* updated the FAQ and other readme items.
 
 = 0.1 =
 * Initial release. 
