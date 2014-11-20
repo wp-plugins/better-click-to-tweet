@@ -41,7 +41,7 @@ Also, developers, please hop in and suggest improvements. You can submit pull re
 Click To Tweet is a simple plugin that enables you to create beautiful Click To Tweet boxes in your blog posts. By either using simple code or a one-click in your editor, you can generate a custom tweet-able message for your blog readers.
 
 = What do I do if it's not working right? =
-I am active in [the support forums] (https://wordpress.org/support/plugin/better-click-to-tweet "Better CTT Support"), and in patching the plugin. Start a thread there, and I will gladly help you out. Most of the time you can expect a few hours before a response. I'm in the Eastern US, and I like playing with my kids at night, so you might not hear back immediately. Don't panic. 
+I am active in [the support forums](https://wordpress.org/support/plugin/better-click-to-tweet "Better CTT Support"), and in patching the plugin. Start a thread there, and I will gladly help you out. Most of the time you can expect a few hours before a response. I'm in the Eastern US, and I like playing with my kids at night, so you might not hear back immediately. Don't panic. 
 
 
 
