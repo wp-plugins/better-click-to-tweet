@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,10 @@ I am active in [the support forums] (https://wordpress.org/support/plugin/better
 == Screenshots ==
 
 == Changelog ==
+
+= 0.2 =
+* fixed a bug that was not displaying the CSS correctly.
+* updated the FAQ and other readme items.
 
 = 0.1 =
 * Initial release. 
