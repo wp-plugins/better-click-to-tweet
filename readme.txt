@@ -1,5 +1,5 @@
 === Better Click To Tweet ===
-Contributors: BenUNC
+Contributors: ben.meredith@gmail.com
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, auto post
 Requires at least: 3.8
