@@ -37,10 +37,10 @@ Also, developers, please hop in and suggest improvements. You can submit pull re
 
 == Frequently Asked Questions ==
 
-= How Does Click To Tweet Work? =
-Click To Tweet is a simple plugin that enables you to create beautiful Click To Tweet boxes in your blog posts. Once you've installed and activated the plugin, click on the settings link to put in your Twitter username, and save the settings. 
+= How Does Better Click To Tweet Work? =
+Better Click To Tweet enables you to create beautiful Click To Tweet boxes in your blog posts. Once you've installed and activated the plugin, click on the settings link to put in your Twitter username, and save the settings. 
 
-Then, wherever you want to insert a Click to Tweet quote, use a shortcode in the format `[bctt tweet="xxxxxxxxxxxx"] replacing the xxxxxxx with your tweetable quote. 
+Then, wherever you want to insert a Click to Tweet quote, use a shortcode in the format `[bctt tweet="xxxxxxxxxxxx"]` replacing the xxxxxxx with your tweetable quote. 
 
 In the visual editor, you can click the blue birdy icon in the toolbar and a correctly formatted shortcode will be inserted in your text. For more info or clarifications, start a [support thread](https://wordpress.org/support/plugin/better-click-to-tweet "support forum"). I'll actively answer.
 
