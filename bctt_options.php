@@ -64,7 +64,7 @@ function bctt_settings_page() {
 					To add styled click-to-tweet quote boxes include the Better Click To Tweet shortcode in your post.</p> 
 				<p>Here's how you format the shortcode: <pre>[bctt tweet="Meaningful, tweetable quote."]</pre></p> 				
 				<p>If you are using the visual editor, click the BCTT birdie in the toolbar to add a pre-formatted shortcode to your post.</p>					
-				<p>Tweet length will be automatically shortened to 118 characters minus the length of your twitter name, to leave room for it and a link back to the post.
+				<p>Tweet length will be automatically shortened to 117 characters minus the length of your twitter name, to leave room for it and a link back to the post.
 				</p>
 
 				<h2>Settings</h2>

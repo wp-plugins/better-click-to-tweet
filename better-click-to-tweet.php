@@ -39,7 +39,7 @@ function bctt_shortcode($atts, $content) {
 					'handle'	=> '$handle_code'	
    				 ), $atts));
 		    $text = $tweet;
-		    $short = bctt_shorten($text, (120 - strlen($handle_code)));
+		    $short = bctt_shorten($text, (117 - strlen($handle)));
                     return "<div class='bctt-click-to-tweet'><span class='bctt-ctt-text'><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank'>".$short."</a></span><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank' class='bctt-ctt-btn'>Click To Tweet</a></div>";
 		}
 
