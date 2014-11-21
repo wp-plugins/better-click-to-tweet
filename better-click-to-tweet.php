@@ -2,10 +2,11 @@
 /*
 Plugin Name: Better Click To Tweet
 Description: Add click to tweet boxes to your WordPress posts, easily. This is a new, fully renovated version of the late "Click to Tweet" plugin by Todaymade. I overhauled the plugin using the shortcode API, and (perhaps most importantly) removed the "powered by" link.
-Version: 0.1
+Version: 0.4
 Author: Ben Meredith
 Author URI: http://benandjacq.com
-Plugin URI: http://benandjacq.com/better-click-to-tweet
+Plugin URI: https://wordpress.org/plugins/better-click-to-tweet/
+License: GPL2
 */
 include 'bctt_options.php';
 
@@ -38,7 +39,7 @@ function bctt_shortcode($atts, $content) {
 					'handle'	=> '$handle_code'	
    				 ), $atts));
 		    $text = $tweet;
-		    $short = bctt_shorten($text, (118 - strlen($handle_code)));
+		    $short = bctt_shorten($text, (126 - strlen($handle_code)));
                     return "<div class='bctt-click-to-tweet'><span class='bctt-ctt-text'><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank'>".$short."</a></span><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank' class='bctt-ctt-btn'>Click To Tweet</a></div>";
 		}
 

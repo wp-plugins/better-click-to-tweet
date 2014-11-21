@@ -86,7 +86,10 @@ function bctt_settings_page() {
 
 			 	<hr/>
 			 	<em>An open source plugin by <a href="http://benandjacq.com" target="_blank">Ben Meredith</a></em>
-			 	<p>Are you a developer? Help make it the (even) Better Click To Tweet plugin. Check out the plugin on Github.</p>	 
+			 	<p>Are you a developer? Help make it the (even) Better Click To Tweet plugin. Check out the <a target="_blank" href="https://github.com/Benunc/better-click-to-tweet">plugin on Github.</a></p>
+			 	<p>The best way you can support this and other plugins is to <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ" target="_blank">donate</a>. The second best way is to <a href="https://wordpress.org/support/view/plugin-reviews/better-click-to-tweet" target="_blank">leave an honest review.</a></p>
+		<p>Did this plugin save you enough time to be worth $3?</p>
+		<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ" target="_blank">Click here to buy me a Coke to say thanks.</a></p>	 
 			</div>
 			<?php
 		}
