@@ -8,7 +8,7 @@ Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Better Click To Tweet uses the official WordPress shortcode API, for enhanced security. This is a ground-up rewrite of the Click To Tweet plugin by Todaymade.
+Add click to tweet boxes securely, using the official WordPress API. An overhaul of the Click To Tweet plugin by Todaymade.
 
 == Description ==
 
