@@ -8,13 +8,13 @@ Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Better Click To Tweet uses the official WordPress shortcode API, for enhanced security.
+Better Click To Tweet uses the official WordPress shortcode API, for enhanced security. This is a ground-up rewrite of the Click To Tweet plugin by Todaymade.
 
 == Description ==
 
-This plugin allows you to easily create tweetable content for your readers. Using a simple shortcode, your selected text is highlighted and made tweetable.
+This plugin allows you to easily create tweetable content for your readers. Using a simple shortcode, your selected text is highlighted and made tweetable. 
 
-This is a complete retool of the "Click To Tweet" plugin by Todaymade. It now uses the WordPress shortcode API, making it more secure, and I've cleaned up the CSS from the old plugin. Perhaps most significantly, I removed the "powered by Coschedule" link.
+This is a complete retool of the "Click To Tweet" plugin by Todaymade. It now uses the WordPress shortcode API, making it more secure, and I've cleaned up the CSS from the old plugin. Perhaps most significantly, I removed the "powered by Coschedule" link. For more on the differences between this plugin and the Click To Tweet plugin by Todaymade, read the FAQ section.
 
 Don't be scared to donate, if this plugin makes your blogging life any better.
 
@@ -46,6 +46,15 @@ In the visual editor, you can click the blue birdy icon in the toolbar and a cor
 
 = What do I do if it's not working right? =
 I am active in [the support forums](https://wordpress.org/support/plugin/better-click-to-tweet "Better CTT Support"), and in patching the plugin. Start a thread there, and I will gladly help you out. Most of the time you can expect a few hours before a response. I'm in the eastern US, and I like playing with my kids at night, so you might not hear back immediately. Don't panic. 
+
+= What are the differences between this plugin and Click To Tweet by Todaymade? =
+I originally was planning on contacting Justin at Todaymade to suggest some improvements to the code on his plugin, and in the midst of that, his plugin was unexpectedly pulled from the official repository, for having a (frowned upon) "Powered By" link. So, I set about fully overhauling the plugin. 
+
+Since that time Justin and the team over at Todaymade have rereleased a version of their plugin without the "Powered By" link. His plugin (which was originally released before the advent of the shortcode API) still doesn't use it, and for that reason is less secure than mine. For him to change to support the shortcode API is a more comlicated issue, as he'll need to still provide support for how his plugin currently handles the pseudo-shortcode system, or risk breaking every current user's website. 
+
+The bottom line for an end user is that both plugins are great, with the main difference being mine using the official WordPress shortcode API, and some other minor tweaks to the code. For example, my plugin adds some calculation based on the length of your Twitter handle to prevent truncated tweets from still being over 140 characters. 
+
+Also from an end user perspective, I am more active in the support forums than Justin (who has a paid product to support, which justifiably takes more of his time and energy), and you can count on my response and resolution to your issues! 
 
 == Screenshots ==
 
