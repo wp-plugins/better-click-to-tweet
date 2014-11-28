@@ -16,6 +16,8 @@ This plugin allows you to easily create tweetable content for your readers. Usin
 
 This is a complete retool of the "Click To Tweet" plugin by Todaymade. It now uses the WordPress shortcode API, making it more secure, and I've cleaned up the CSS from the old plugin. Perhaps most significantly, I removed the "powered by Coschedule" link. For more on the differences between this plugin and the Click To Tweet plugin by Todaymade, read the FAQ section.
 
+I am working on a tutorial to swtich to my plugin from the previous version in a way that doesn't mean you have to switch every shortcode by hand. Stay tuned! 
+
 Don't be scared to donate, if this plugin makes your blogging life any better.
 
 Also, developers, please hop in and suggest improvements. You can submit pull requests at the [github repo](https://github.com/Benunc/better-click-to-tweet "plugin github repo") for this plugin, or go through the official svn repo here. 
