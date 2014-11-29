@@ -10,18 +10,18 @@ License: GPL2
 */
 include 'bctt_options.php';
 
-defined('ABSPATH') or die("No script kiddies please!");
+defined( 'ABSPATH' ) or die( "No script kiddies please!" );
 
-function bctt_shorten($input, $length, $ellipsis = true, $strip_html = true) {
-		    if ($strip_html) {
-		        $input = strip_tags($input);
+function bctt_shorten( $input, $length, $ellipsis = true, $strip_html = true ) {
+		    if ( $strip_html ) {
+		        $input = strip_tags( $input );
 		    }
-		    if (strlen($input) <= $length) {
+		    if ( strlen( $input ) <= $length ) {
 		        return $input;
 		    }
-		    $last_space = strrpos(substr($input, 0, $length), ' ');
-		    $trimmed_text = substr($input, 0, $last_space);
-		    if ($ellipsis) {
+		    $last_space = strrpos( substr( $input, 0, $length) , ' ');
+		    $trimmed_text = substr( $input, 0, $last_space );
+		    if ( $ellipsis ) {
 		        $trimmed_text .= '…';
 		    }
 		    return $trimmed_text;
