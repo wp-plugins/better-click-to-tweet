@@ -19,9 +19,9 @@ function bctt_shorten( $input, $length, $ellipsis = true, $strip_html = true ) {
 		    if ( strlen( $input ) <= $length ) {
 		        return $input;
 		    }
-		    $last_space = strrpos(substr($input, 0, $length), ' ');
-		    $trimmed_text = substr($input, 0, $last_space);
-		    if ($ellipsis) {
+		    $last_space = strrpos( substr( $input, 0, $length) , ' ');
+		    $trimmed_text = substr( $input, 0, $last_space );
+		    if ( $ellipsis ) {
 		        $trimmed_text .= '…';
 		    }
 		    return $trimmed_text;
