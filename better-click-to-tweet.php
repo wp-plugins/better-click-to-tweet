@@ -27,19 +27,19 @@ function bctt_shorten( $input, $length, $ellipsis = true, $strip_html = true ) {
 		    return $trimmed_text;
 		};
 		
-function bctt_shortcode($atts, $content) {
- 			$handle = get_option('bctt-twitter-handle');
-		    if (!empty($handle)) {
+function bctt_shortcode( $atts, $content ) {
+ 			$handle = get_option( 'bctt-twitter-handle' );
+		    if ( !empty( $handle ) ) {
 		        $handle_code = "&via=".$handle."&related=".$handle;
 		    } else {
 		    	$handle_code = $handle;
 		    }
- 			extract(shortcode_atts(array(
+ 			extract( shortcode_atts( array(
 					'tweet' 	=> '$content',
 					'handle'	=> '$handle_code'	
-   				 ), $atts));
+   				 ), $atts ) );
 		    $text = $tweet;
-		    $short = bctt_shorten($text, (117 - strlen($handle)));
+		    $short = bctt_shorten( $text, ( 117 - strlen( $handle ) ) );
                     return "<div class='bctt-click-to-tweet'><span class='bctt-ctt-text'><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank'>".$short."</a></span><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank' class='bctt-ctt-btn'>Click To Tweet</a></div>";
 		}
 
