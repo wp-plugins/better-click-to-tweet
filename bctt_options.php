@@ -14,13 +14,13 @@ add_action('admin_menu', 'bctt_admin_menu');
 add_action('init', 'bctt_tinymce_button');
 	
 function bctt_tinymce_button() {
-			if (!current_user_can('edit_posts') && !current_user_can('edit_pages')) {
+			if ( !current_user_can( 'edit_posts' ) && !current_user_can( 'edit_pages' ) ) {
 				return;
 			}
 
-			if (get_user_option('rich_editing') == 'true') {
-				add_filter('mce_external_plugins', 'bctt_tinymce_register_plugin');
-				add_filter('mce_buttons', 'bctt_tinymce_register_button');
+			if ( get_user_option( 'rich_editing' ) == 'true' ) {
+				add_filter( 'mce_external_plugins', 'bctt_tinymce_register_plugin' );
+				add_filter( 'mce_buttons', 'bctt_tinymce_register_button' );
 			}
 		}
 function bctt_tinymce_register_button($buttons) {
@@ -64,7 +64,7 @@ function bctt_settings_page() {
 					To add styled click-to-tweet quote boxes include the Better Click To Tweet shortcode in your post.</p> 
 				<p>Here's how you format the shortcode: <pre>[bctt tweet="Meaningful, tweetable quote."]</pre></p> 				
 				<p>If you are using the visual editor, click the BCTT birdie in the toolbar to add a pre-formatted shortcode to your post.</p>					
-				<p>Tweet length will be automatically shortened to 118 characters minus the length of your twitter name, to leave room for it and a link back to the post.
+				<p>Tweet length will be automatically shortened to 117 characters minus the length of your twitter name, to leave room for it and a link back to the post.
 				</p>
 
 				<h2>Settings</h2>
@@ -86,7 +86,10 @@ function bctt_settings_page() {
 
 			 	<hr/>
 			 	<em>An open source plugin by <a href="http://benandjacq.com" target="_blank">Ben Meredith</a></em>
-			 	<p>Are you a developer? Help make it the (even) Better Click To Tweet plugin. Check out the plugin on Github.</p>	 
+			 	<p>Are you a developer? Help make it the (even) Better Click To Tweet plugin. Check out the <a target="_blank" href="https://github.com/Benunc/better-click-to-tweet">plugin on Github.</a></p>
+			 	<p>The best way you can support this and other plugins is to <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ" target="_blank">donate</a>. The second best way is to <a href="https://wordpress.org/support/view/plugin-reviews/better-click-to-tweet" target="_blank">leave an honest review.</a></p>
+		<p>Did this plugin save you enough time to be worth $3?</p>
+		<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ" target="_blank">Click here to buy me a Coke to say thanks.</a></p>	 
 			</div>
 			<?php
 		}
