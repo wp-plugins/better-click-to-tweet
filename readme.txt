@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 0.4
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,10 @@ Also from an end user perspective, I am more active in the support forums than J
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 1.0 =
+* updated the tweet length math to correctly parse text with non-standard characters. Thanks to [WordPress forum user zachop](https://wordpress.org/support/topic/incorrect-handling-length-count-of-multi-byte-strings "user forum') for the tip.
+* various code cleanup issues, to make my code more readable and complaint with WordPress standards.
 
 = 0.4 =
 * rescued 9 characters that were being stolen by some incorrect math in my tweet-generating function. (now tweets won't be truncated until they actually need to be).
