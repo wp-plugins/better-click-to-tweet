@@ -14,13 +14,13 @@ add_action('admin_menu', 'bctt_admin_menu');
 add_action('init', 'bctt_tinymce_button');
 	
 function bctt_tinymce_button() {
-			if (!current_user_can('edit_posts') && !current_user_can('edit_pages')) {
+			if ( !current_user_can( 'edit_posts' ) && !current_user_can( 'edit_pages' ) ) {
 				return;
 			}
 
-			if (get_user_option('rich_editing') == 'true') {
-				add_filter('mce_external_plugins', 'bctt_tinymce_register_plugin');
-				add_filter('mce_buttons', 'bctt_tinymce_register_button');
+			if ( get_user_option( 'rich_editing' ) == 'true' ) {
+				add_filter( 'mce_external_plugins', 'bctt_tinymce_register_plugin' );
+				add_filter( 'mce_buttons', 'bctt_tinymce_register_button' );
 			}
 		}
 function bctt_tinymce_register_button($buttons) {
