@@ -66,7 +66,7 @@ Also from an end user perspective, I am more active in the support forums than J
 == Changelog ==
 
 = 1.0 =
-* updated the tweet length math to correctly parse text with non-standard characters. Thanks to [WordPress forum user zachop](https://wordpress.org/support/topic/incorrect-handling-length-count-of-multi-byte-strings "user forum') for the tip.
+* updated the tweet length math to correctly parse text with non-standard characters. Thanks to WordPress forum user zachop at https://wordpress.org/support/topic/incorrect-handling-length-count-of-multi-byte-strings for the tip.
 * various code cleanup issues, to make my code more readable and complaint with WordPress standards.
 
 = 0.4 =
