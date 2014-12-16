@@ -7,8 +7,10 @@ Author: Ben Meredith
 Author URI: http://benandjacq.com
 Plugin URI: https://wordpress.org/plugins/better-click-to-tweet/
 License: GPL2
+Text Domain: better-click-to-tweet 
 */
 include 'bctt_options.php';
+include 'bctt-i18n.php';
 
 defined( 'ABSPATH' ) or die( "No script kiddies please!" );
 
@@ -39,8 +41,9 @@ function bctt_shortcode( $atts, $content ) {
 					'handle'	=> '$handle_code'	
    				 ), $atts ) );
 		    $text = $tweet;
-		    $short = bctt_shorten( $text, ( 117 - strlen( $handle ) ) );
-                    return "<div class='bctt-click-to-tweet'><span class='bctt-ctt-text'><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank'>".$short."</a></span><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank' class='bctt-ctt-btn'>Click To Tweet</a></div>";
+                    $bcttBttn = sprintf( __( 'Click To Tweet', 'better-click-to-tweet' ) );
+		    $short = bctt_shorten( $text, ( 117 - mb_strlen( $handle ) ) );
+                    return "<div class='bctt-click-to-tweet'><span class='bctt-ctt-text'><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank'>".$short."</a></span><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank' class='bctt-ctt-btn'>".$bcttBttn."</a></div>";
 		}
 
 add_shortcode('bctt', 'bctt_shortcode');
@@ -68,10 +71,12 @@ function bctt_on_uninstall(){
 
 register_uninstall_hook(    __FILE__, 'bctt_on_uninstall' );
 
-function bctt_options_link($links) { 
-  $settings_link = '<a href="options-general.php?page=better-click-to-tweet">Settings</a>'; 
+function bctt_options_link($links) {
+  $settingsText = sprintf( __( 'Settings', 'better-click-to-tweet')); 
+  $settings_link = '<a href="options-general.php?page=better-click-to-tweet">'.$settingsText.'</a>'; 
   array_unshift( $links, $settings_link ); 
   return $links; 
 }
 $bcttlink = plugin_basename(__FILE__); 
 add_filter("plugin_action_links_$bcttlink", 'bctt_options_link' );
+
