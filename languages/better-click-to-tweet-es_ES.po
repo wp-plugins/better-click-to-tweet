@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Better Click To Tweet\n"
-"POT-Creation-Date: 2014-12-16 09:42-0500\n"
-"PO-Revision-Date: 2014-12-16 09:43-0500\n"
+"POT-Creation-Date: 2014-12-17 10:04-0500\n"
+"PO-Revision-Date: 2014-12-17 10:38-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -32,17 +32,17 @@ msgid ""
 "To add styled click-to-tweet quote boxes include the Better Click To Tweet "
 "shortcode in your post."
 msgstr ""
-"Para añadir cajas labradas cotización de clic de Twitter incluyen el "
-"shortcode Better Click To Tweet en su puesto."
+"Para añadir casillas de texto de estilo \"click to tweet\" incluya el "
+"shortcode \"Better Click To Tweet\" en su mensaje."
 
 #: bctt_options.php:65
 msgid "Here's how you format the shortcode:"
-msgstr "﻿Aquí está cómo formatear el shortcode:"
+msgstr "Aquí está cómo formatear el shortcode:"
 
 #. translators: This text shows up as a sample tweet in the instructions for how to use the plugin.
 #: bctt_options.php:65
 msgid "Meaningful, tweetable quote."
-msgstr "Algo significativa para Twittear."
+msgstr "Algo significativo para Twittear."
 
 #. translators: Also, treat "BCTT" as a brand name, don't translate it
 #: bctt_options.php:66
@@ -50,18 +50,18 @@ msgid ""
 "If you are using the visual editor, click the BCTT birdie in the toolbar to "
 "add a pre-formatted shortcode to your post."
 msgstr ""
-"﻿Si está utilizando el editor visual, haga clic en el pajarito BCTT en la "
+"Si está utilizando el editor visual, haga clic en el pajarito BCTT en la "
 "barra de herramientas para añadir un shortcode formateado previamente a su "
-"puesto."
+"mensaje."
 
 #: bctt_options.php:67
 msgid ""
-"Tweet length is automatically shortened to 117 characters minus the length of "
-"your twitter name, to leave room for it and a link back to the post."
+"Tweet length is automatically shortened to 117 characters minus the length "
+"of your twitter name, to leave room for it and a link back to the post."
 msgstr ""
-"﻿Tweet longitud se acortará automáticamente a 117 caracteres menos la longitud "
-"de su nombre de Twitter, para dejar espacio para ella y un enlace de vuelta "
-"al poste."
+"La longitud del tweet se acortará automáticamente a 117 caracteres menos la "
+"longitud de su nombre de Twitter, para dejar espacio para ella y un enlace "
+"de vuelta al tweet."
 
 #: bctt_options.php:70 better-click-to-tweet.php:75
 msgid "Settings"
@@ -72,12 +72,12 @@ msgid ""
 "Enter your Twitter handle to add \"via @yourhandle\" to your tweets. Do not "
 "include the @ symbol."
 msgstr ""
-"﻿Ingrese su manija de Twitter para agregar \"via @sumanija\" a tus tweets. No "
-"incluyen el símbolo @."
+"Ingrese su nombre identificador de Twitter para agregar \"via "
+"@nombreIdentificador\" a sus tweets. No incluya el símbolo @."
 
 #: bctt_options.php:78
 msgid "Your Twitter Handle"
-msgstr "Su Manija de Twitter"
+msgstr "Su Identificador de Twitter"
 
 #: bctt_options.php:88
 #, php-format
@@ -99,7 +99,7 @@ msgid ""
 "The best way you can support this and other plugins is to <a href=%s>donate</"
 "a>"
 msgstr ""
-"﻿La mejor manera que usted puede apoyar esto y otros plugins es <a href="
+"La mejor manera en que usted puede apoyar este y otros plugins es <a href="
 "%s>donar</a>"
 
 #: bctt_options.php:90
@@ -109,12 +109,12 @@ msgstr "﻿La segunda mejor manera es <a href=%s>dejar una revisión honesta.</a
 
 #: bctt_options.php:91
 msgid "Did this plugin save you enough time to be worth some money?"
-msgstr "﻿¿Este plugin ahorrarle tiempo suficiente para valer algo de dinero?"
+msgstr "¿Este plugin le ahorra suficiente tiempo para valer algo de dinero?"
 
 #: bctt_options.php:92
 msgid "Click here to buy me a Coke to say thanks."
-msgstr "﻿Haga clic aquí para comprar una Coca-Cola para decir gracias."
+msgstr "Haga clic aquí y compre una Coca-Cola para decir gracias."
 
 #: better-click-to-tweet.php:44
 msgid "Click To Tweet"
-msgstr "Click Para Twittear"
+msgstr "﻿Click Para Twittear"

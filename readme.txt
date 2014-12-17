@@ -4,23 +4,23 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add click to tweet boxes securely, using the official WordPress API. An overhaul of the Click To Tweet plugin by Todaymade.
+Add click to tweet boxes securely, using the official WordPress Shortcode API. Translation ready, regularly updated, best support on the market!
 
 == Description ==
 
 This plugin allows you to easily create tweetable content for your readers. Using a simple shortcode, your selected text is highlighted and made tweetable. 
 
-This is a complete retool of the "Click To Tweet" plugin by Todaymade. It now uses the WordPress shortcode API, making it more secure, and I've cleaned up the CSS from the old plugin. Perhaps most significantly, I removed the "powered by Coschedule" link. For more on the differences between this plugin and the Click To Tweet plugin by Todaymade, read the FAQ section.
+This is a complete retool of the "Click To Tweet" plugin by Todaymade. It now uses the WordPress shortcode API, making it more secure and forward-compatible, and I've cleaned up the CSS from the old plugin. For more on the differences between this plugin and the Click To Tweet plugin by Todaymade, read the FAQ section.
 
-I am working on a tutorial to swtich to my plugin from the previous version in a way that doesn't mean you have to switch every shortcode by hand. Stay tuned! 
+I am working on a tutorial to switch to my plugin from any other similar plugin in a way that doesn't mean you have to switch every shortcode or pseudo-shortcode by hand. Stay tuned! 
 
 Don't be scared to donate, if this plugin makes your blogging life any better.
 
-Also, developers, please hop in and suggest improvements. You can submit pull requests at the [github repo](https://github.com/Benunc/better-click-to-tweet "plugin github repo") for this plugin, or go through the official svn repo here. 
+Also, developers, please hop in and suggest improvements. You can submit pull requests at the [github repo](https://github.com/Benunc/better-click-to-tweet "plugin github repo") for this plugin, or go through the official svn repo here. I'm also actively seeking translators to bring the usefulness of this plugin to non-English speakers. Please message me in the forums. 
 
 == Installation ==
 
@@ -58,12 +58,18 @@ The bottom line for an end user is that both plugins are great, with the main di
 
 Also from an end user perspective, I am more active in the support forums than Justin (who has a paid product to support, which justifiably takes more of his time and energy), and you can count on my response and resolution to your issues! 
 
+= How can I help? =
+I want to maximize the usefulness of this plugin by translating it into multiple languages. So far I have included Spanish. If you have experience translating .po files, please consider helping in that way. To include those translations in the official plugin, email me, or submit pull requests at Github.
+
 == Screenshots ==
 
 1. This in the editor...
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 2.0 = 
+* Major version release for internationalization: added Spanish (ES) translation, and updated code throughout for internationalization. Still to-do: add translation support for the tinymce plugin on the visual editor.
 
 = 1.0 =
 * updated the tweet length math to correctly parse text with non-standard characters. Thanks to WordPress forum user zachop at https://wordpress.org/support/topic/incorrect-handling-length-count-of-multi-byte-strings for the tip.
@@ -81,3 +87,10 @@ Also from an end user perspective, I am more active in the support forums than J
 
 = 0.1 =
 * Initial release. 
+
+== Upgrade Notice ==
+
+= 2.0 =
+Adds internationalization, and out of the box support for Spanish (ES) language.
+
+
