@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Better Click To Tweet
-Description: Add click to tweet boxes to your WordPress posts, easily. This is a new, fully renovated version of the late "Click to Tweet" plugin by Todaymade. I overhauled the plugin using the shortcode API, and (perhaps most importantly) removed the "powered by" link.
+Description: The only Click To Tweet plugin to add translation support. The only Click To Tweet plugin to take into account your Twitter username's length in truncating long tweets, or to correctly take into account non-Roman characters. Simply put, as Click To Tweet plugins go, this one is, well, BETTER. 
 Version: 2.0.1
 Author: Ben Meredith
 Author URI: http://benandjacq.com
