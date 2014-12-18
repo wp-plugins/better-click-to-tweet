@@ -8,7 +8,7 @@ Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The only click to tweet plugin which correctly counts characters, taking into account username length and non-Roman characters. Simply put: as Click to Tweet plugins go, this one's BETTER. Also: translation ready, as of version 2.0!
+Correctly counts characters, taking into account username length and non-Roman characters. Simply put: as Click to Tweet plugins go, this one's BETTER. Also: translation ready, as of version 2.0!
 
 == Description ==
 
