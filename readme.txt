@@ -4,23 +4,27 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add click to tweet boxes securely, using the official WordPress Shortcode API. Translation ready, regularly updated, best support on the market!
+The only click to tweet plugin which correctly counts characters, taking into account username length and non-Roman characters. Simply put: as Click to Tweet plugins go, this one's BETTER. Also: translation ready, as of version 2.0!
 
 == Description ==
 
 This plugin allows you to easily create tweetable content for your readers. Using a simple shortcode, your selected text is highlighted and made tweetable. 
-
-This is a complete retool of the "Click To Tweet" plugin by Todaymade. It now uses the WordPress shortcode API, making it more secure and forward-compatible, and I've cleaned up the CSS from the old plugin. For more on the differences between this plugin and the Click To Tweet plugin by Todaymade, read the FAQ section.
+><strong> Why Better?</strong><br>
+>This plugin started as a complete retool of the "Click To Tweet" plugin by Todaymade. There are a number of improvements under the hood, namely correct character counting when dealing with non-Roman characters, providing multi-language support, and use of the official shortcode API (which means security and forward-compatibility)
 
 I am working on a tutorial to switch to my plugin from any other similar plugin in a way that doesn't mean you have to switch every shortcode or pseudo-shortcode by hand. Stay tuned! 
 
 Don't be scared to donate, if this plugin makes your blogging life any better.
 
 Also, developers, please hop in and suggest improvements. You can submit pull requests at the [github repo](https://github.com/Benunc/better-click-to-tweet "plugin github repo") for this plugin, or go through the official svn repo here. I'm also actively seeking translators to bring the usefulness of this plugin to non-English speakers. Please message me in the forums. 
+
+Translators:
+
+Español (es): Jordi Rosalez
 
 == Installation ==
 
@@ -67,6 +71,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 2.0.1 =
+* added in support for RSS feeds: when outputting to an RSS feed, the click-to-tweet text will be smartly formatted.
+* added css declarations to deal with issues in the Twenty Fifteen theme.
 
 = 2.0 = 
 * Major version release for internationalization: added Spanish (ES) translation, and updated code throughout for internationalization. Still to-do: add translation support for the tinymce plugin on the visual editor.
