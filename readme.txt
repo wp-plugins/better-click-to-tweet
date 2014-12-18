@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +67,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 2.0.1 =
+* added in support for RSS feeds: when outputting to an RSS feed, the click-to-tweet text will be smartly formatted.
+* added css declarations to deal with issues in the Twenty Fifteen theme.
 
 = 2.0 = 
 * Major version release for internationalization: added Spanish (ES) translation, and updated code throughout for internationalization. Still to-do: add translation support for the tinymce plugin on the visual editor.

@@ -29,6 +29,7 @@
   text-decoration: none !important;
   text-transform: none !important;
   word-wrap:break-word;
+  border-bottom: none !important;
 }
 .bctt-ctt-text a:hover {
   text-decoration: none;

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Better Click To Tweet
 Description: Add click to tweet boxes to your WordPress posts, easily. This is a new, fully renovated version of the late "Click to Tweet" plugin by Todaymade. I overhauled the plugin using the shortcode API, and (perhaps most importantly) removed the "powered by" link.
-Version: 2.0
+Version: 1.0
 Author: Ben Meredith
 Author URI: http://benandjacq.com
 Plugin URI: https://wordpress.org/plugins/better-click-to-tweet/
@@ -37,14 +37,16 @@ function bctt_shortcode( $atts, $content ) {
 		    	$handle_code = $handle;
 		    }
  			extract( shortcode_atts( array(
-					'tweet' 	=> '$content',
-					'handle'	=> '$handle_code'	
+					'tweet' 	=> '$content'
    				 ), $atts ) );
 		    $text = $tweet;
                     $bcttBttn = sprintf( __( 'Click To Tweet', 'better-click-to-tweet' ) );
 		    $short = bctt_shorten( $text, ( 117 - mb_strlen( $handle ) ) );
-                    return "<div class='bctt-click-to-tweet'><span class='bctt-ctt-text'><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank'>".$short."</a></span><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank' class='bctt-ctt-btn'>".$bcttBttn."</a></div>";
-		}
+                    if ( !is_feed() ) {
+                        return "<div class='bctt-click-to-tweet'><span class='bctt-ctt-text'><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank'>".$short."</a></span><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank' class='bctt-ctt-btn'>".$bcttBttn."</a></div>";} else {
+                        return "<hr /><p><em>".$short."</em><br /><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".get_permalink()."' target='_blank' class='bctt-ctt-btn'>".$bcttBttn."</a><br /><hr />";
+	        	};
+              }
 
 add_shortcode('bctt', 'bctt_shortcode');
 	
