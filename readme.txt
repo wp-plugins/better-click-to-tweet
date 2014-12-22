@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,6 +74,9 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 
 == Changelog ==
 
+= 2.0.2 =
+* fixed bug introduced in 2.0 related to javascript.
+
 = 2.0.1 =
 * added in support for RSS feeds: when outputting to an RSS feed, the click-to-tweet text will be smartly formatted.
 * added css declarations to deal with issues in the Twenty Fifteen theme.
@@ -100,6 +103,9 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 * Initial release. 
 
 == Upgrade Notice ==
+
+= 2.0.2 =
+Fixes bug that was causing the visual editor to not show the BCTT button.
 
 = 2.0 =
 Adds internationalization, and out of the box support for Spanish (ES) language.
