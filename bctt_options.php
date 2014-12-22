@@ -29,7 +29,7 @@ function bctt_tinymce_register_button($buttons) {
 		}
 
 function bctt_tinymce_register_plugin($plugin_array) {
-		   $plugin_array['better_click_to_tweet'] = plugins_url( '/assets/js/bctt_clicktotweet_plugin.js', __FILE__);
+		   $plugin_array['bctt_clicktotweet'] = plugins_url( '/assets/js/bctt_clicktotweet_plugin.js', __FILE__);
 		   return $plugin_array;
 		}
 
