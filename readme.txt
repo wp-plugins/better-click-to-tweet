@@ -18,7 +18,7 @@ This plugin allows you to easily create tweetable content for your readers. Usin
 ><strong> Why Better?</strong><br>
 >This plugin started as a complete retool of the "Click To Tweet" plugin by Todaymade. There are a number of improvements under the hood, namely correct character counting when dealing with non-Roman characters, providing multi-language support, and use of the official shortcode API (which means security and forward-compatibility)
 
-I am working on a tutorial to switch to my plugin from any other similar plugin in a way that doesn't mean you have to switch every shortcode or pseudo-shortcode by hand. Stay tuned! 
+Version 3.0 adds an option to enable WordPress shortlinks instead of the full URL in the tweet. While this doesn't allow for any advantage in terms of number of characters, it does allow you to use this plugin in conjunction with a plugin like the [WP Bitly Plugin](https://wordpress.org/plugins/wp-bitly/ "WP Bit.ly") to track link clicks and status.
 
 Don't be scared to donate, if this plugin makes your blogging life any better.
 
@@ -73,6 +73,9 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 3.0 =
+* added option to use WordPress shortlink in place of full URL. 
 
 = 2.0.3 =
 * updated CSS to remove underline on "Click to Tweet" on Twenty Fifteen theme (and others!)
