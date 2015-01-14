@@ -47,7 +47,7 @@ function bctt_shortcode( $atts, $content ) {
                         $bcttURL = get_permalink(); 
                         }
                     $bcttBttn = sprintf( __( 'Click To Tweet', 'better-click-to-tweet' ) );
-		    $short = bctt_shorten( $text, ( 117 - mb_strlen( $handle ) ) );
+		    $short = bctt_shorten( $text, ( 117 - (6 + mb_strlen( $handle ) ) ) );
                     if ( !is_feed() ) {
                         return "<div class='bctt-click-to-tweet'><span class='bctt-ctt-text'><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".$bcttURL."' target='_blank'>".$short."</a></span><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".$bcttURL."' target='_blank' class='bctt-ctt-btn'>".$bcttBttn."</a></div>";} else {
                         return "<hr /><p><em>".$short."</em><br /><a href='https://twitter.com/intent/tweet?text=".urlencode($short).$handle_code."&url=".$bcttURL."' target='_blank' class='bctt-ctt-btn'>".$bcttBttn."</a><br /><hr />";

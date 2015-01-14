@@ -52,6 +52,26 @@ Then, wherever you want to insert a Click to Tweet quote, use a shortcode in the
 
 In the visual editor, you can click the blue birdy icon in the toolbar and a correctly formatted shortcode will be inserted in your text. For more info or clarifications, start a [support thread](https://wordpress.org/support/plugin/better-click-to-tweet "support forum"). I'll actively answer.
 
+= How does the URL shortener functionality work? =
+Better Click To Tweet gives you the maximum number of characters possible. Allow me to explain:
+
+Twitter automatically routes every link through its own URL shortener (you might recognize t.co as the domain they use). For their t.co links, the length is automatically truncated to 23 characters for URLs. This leaves 117 characters after the URL for you to use to compose your tweet. Even a link that is run through bit.ly or a yourls.org install is still routed through t.co in the tweet. 
+
+The benefit of URL shorteners goes beyond just character length, though. Many users use bit.ly or a similar service to track numbers of clicks and other analytical data. I personally use yourls.org to power http://benlikes.us for my shortened links.
+
+As of version 3.0, my plugin works alongside url shortening plugins to harness that power, if you choose to. 
+
+WordPress has a feature called "shortlinks" which changes the long URL to something like yourdomain.com/?p=3435. Various plugins in the official repository exist to change that shortlink to one using other outside services. Using a combination of those plugins and mine, your Better Click To Tweet boxes can now display a trackable link. 
+
+On the settings page for Better Click To Tweet, simply check the box indicating you'd like to use the short URL, and save changes. If you've got a plugin that correctly hijacks the built-in WordPress shortlink functionality, you're all set! I've tested my plugin with the following plugins, and will make every effort to keep this list updated:
+
+* [WP Bitly](https://wordpress.org/plugins/wp-bitly/ "WP Bit.ly")
+* [YOURLS Link Creator](https://wordpress.org/support/plugin/yourls-link-creator "YOURLS Link Creator")
+
+If you run into any issues with my plugin not working alongside a certain link shortener, start a [support thread](https://wordpress.org/support/plugin/better-click-to-tweet "support forum") and include a link to the other plugin. I'll see what I can do to work with the other developer.
+
+I've also written a tutorial at http://benlikes.us/79 for how to set up the shortlinks with bit.ly and yourls.org.
+
 = What do I do if it's not working right? =
 I am active in [the support forums](https://wordpress.org/support/plugin/better-click-to-tweet "Better CTT Support"), and in patching the plugin. Start a thread there, and I will gladly help you out. Most of the time you can expect a few hours before a response. I'm in the eastern US, and I like playing with my kids at night, so you might not hear back immediately. Don't panic. 
 
@@ -76,6 +96,7 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 
 = 3.0 =
 * added option to use WordPress shortlink in place of full URL. 
+* further refinement of the math used in calculating tweet truncation length.
 
 = 2.0.3 =
 * updated CSS to remove underline on "Click to Tweet" on Twenty Fifteen theme (and others!)
