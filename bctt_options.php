@@ -40,8 +40,8 @@ function bctt_admin_menu() {
 		}
 
 function bctt_register_settings() {
-			register_setting('bctt_clicktotweet-options', 'bctt-twitter-handle', 'bctt_validate_settings');
-                        register_setting('bctt_clicktotweet-options', 'bctt-short-url', 'bctt_validate_checkbox' );
+			register_setting( 'bctt_clicktotweet-options', 'bctt-twitter-handle', 'bctt_validate_settings');
+            register_setting( 'bctt_clicktotweet-options', 'bctt-short-url', 'bctt_validate_checkbox' );
 		}
 
 function bctt_validate_settings($input) {	

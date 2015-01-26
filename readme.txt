@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org 
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 3.0
+Stable tag: 3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,8 @@ Español (es): Jordi Rosalez
 Better Click To Tweet enables you to create beautiful Click To Tweet boxes in your blog posts. Once you've installed and activated the plugin, click on the settings link to put in your Twitter username, and save the settings. 
 
 Then, wherever you want to insert a Click to Tweet quote, use a shortcode in the format `[bctt tweet="xxxxxxxxxxxx"]` replacing the xxxxxxx with your tweetable quote. 
+
+As of version 3.1, you can leave off the "via @YourHandle" on a tweet-by-tweet basis by including using a shortcode in the format of `[bctt tweet="xxxxxxxxxxx" via="no"]` 
 
 In the visual editor, you can click the blue birdy icon in the toolbar and a correctly formatted shortcode will be inserted in your text. For more info or clarifications, start a [support thread](https://wordpress.org/support/plugin/better-click-to-tweet "support forum"). I'll actively answer.
 
@@ -95,6 +97,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 
 == Changelog ==
 
+= 3.1 =
+* added the ability to leave off the `via @YourTwitterName` on a tweet-by-tweet basis.
+* complete overhaul of the javascript file to enable that functionality without having to mess with hand-coding the shortcode.
+
 = 3.0 =
 * added option to use WordPress shortlink in place of full URL. 
 * further refinement of the math used in calculating tweet truncation length.
@@ -131,6 +137,9 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 * Initial release. 
 
 == Upgrade Notice ==
+
+= 3.1 = 
+* Added ability to leave off the via @YourTwitterName
 
 = 2.0.3 =
 * CSS update for "Click to Tweet" text being underlined in some themes.
