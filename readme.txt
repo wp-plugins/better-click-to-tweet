@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org 
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 3.1
+Stable tag: 3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -97,6 +97,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 
 == Changelog ==
 
+= 3.2 =
+* added the ability to leave off the url on a tweet-by-tweet basis (handwritten shortcodes only, the visual editor will not show it as an option on the popup window)
+* code modifications for clarity.
+
 = 3.1 =
 * added the ability to leave off the `via @YourTwitterName` on a tweet-by-tweet basis.
 * complete overhaul of the javascript file to enable that functionality without having to mess with hand-coding the shortcode.
@@ -137,6 +141,9 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 * Initial release. 
 
 == Upgrade Notice ==
+
+= 3.2 =
+* added the ability to leave off the url on a tweet-by-tweet basis (handwritten shortcodes only, the visual editor will not show it as an option on the popup window)
 
 = 3.1 = 
 * Added ability to leave off the via @YourTwitterName
