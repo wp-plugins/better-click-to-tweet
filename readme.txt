@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org 
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 3.2.2
+Stable tag: 3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -97,6 +97,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 
 == Changelog ==
 
+= 3.3 =
+* fixed a bug that was creating (rare, server-configuration-related) "Fatal Error" notices for `mb_strlen()` and related multibyte functions.
+* various code tweaks for readability and compliance with WordPress standards.
+
 = 3.2.2 =
 * fixed bug that was causing the URL not to display on certain clicks after the 3.2 update (thanks @aa_stardust for the heads up!)
 
@@ -147,6 +151,9 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 * Initial release. 
 
 == Upgrade Notice ==
+
+= 3.3 =
+* fixed a bug for users experiencing Fatal Errors related to multibyte string functions.
 
 = 3.2.2 =
 * fixed bug that was causing the URL not to display on certain clicks after the 3.2 update (thanks @aa_stardust for the heads up!)
