@@ -26,8 +26,8 @@ Also, developers, please hop in and suggest improvements. You can submit pull re
 
 Translators:
 
-Español (es_ES): Jordi Rosalez
-Serbian (sr_RS): [Borisa Djuraskovic](http://www.webhostinghub.com/ "Web Hosting Hub") 
+* Español (es_ES): Jordi Rosalez 
+* Serbian (sr_RS): [Borisa Djuraskovic](http://www.webhostinghub.com/ "Web Hosting Hub") 
 
 == Installation ==
 
@@ -158,6 +158,9 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 * Initial release. 
 
 == Upgrade Notice ==
+
+= 3.4.1 =
+* added Serbian language files.
 
 = 3.4 =
 * small change to the outputted URL for vc3 compliance. Thanks to @tomazzaman on Github for the fix!
