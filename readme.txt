@@ -3,7 +3,7 @@ Contributors: ben.meredith@gmail.com
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org, translation-ready 
 Requires at least: 3.8
-Tested up to: 4.1.1
+Tested up to: 4.2
 Stable tag: 3.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
