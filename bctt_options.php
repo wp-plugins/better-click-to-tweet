@@ -42,7 +42,7 @@ function bctt_settings_page() {
 
 			<div class="wrap">
 
-				<h2><?php _e('Better Click To Tweet — a Plugin by Ben Meredith', 'better-click-to-tweet');?></h2>
+				<h2><?php /* translators: Treat "Better Click To Tweet" as a brand name, don't translate it */ _e('Better Click To Tweet — a plugin by Ben Meredith', 'better-click-to-tweet');?></h2>
 
 				<hr/>
 				<div id="bctt_admin" class="metabox-holder has-right-sidebar">
@@ -56,7 +56,7 @@ function bctt_settings_page() {
 											<div id="mc_embed_signup_scroll">
 												<p> <?php echo sprintf( __('This plugin is developed by <a href="%s">Ben Meredith</a>. I am a freelance developer specializing in <a href="%s">outrunning and outsmarting hackers</a>.', 'better-click-to-tweet'), esc_url('http://benandjacq.com'), esc_url('http://benandjacq.com/wordpress-maintenance-plans') );?></p>
 												<h4><?php _e('Sign up to receive my FREE web strategy guide', 'better-click-to-tweet'); ?></h4>
-												<p><input type="email" value="" name="EMAIL" class="widefat" id="mce-EMAIL" placeholder="<?php _e('Your Email Address', 'better-click-to-tweet');?>">
+												<p><input type="email" value="" name="EMAIL" class="widefat" id="mce-EMAIL" placeholder="<?php _ex('Your Email Address', 'placeholder text for input field', 'better-click-to-tweet');?>">
 												<small><?php _e('No Spam. One-click unsubscribe in every message', 'better-click-to-tweet'); ?></small></p>
 												<div style="position: absolute; left: -5000px;"><input type="text" name="b_8f88921110b81f81744101f4d_bd909b5f89" tabindex="-1" value="">
 												</div>	
@@ -101,10 +101,10 @@ function bctt_settings_page() {
 
 											<table class="form-table">
 		        								<tr valign="top">
-		        									<th style="width: 200px;"><label><?php _e('Your Twitter Handle', 'better-click-to-tweet'); ?></label></th>
+		        									<th style="width: 200px;"><label><?php _ex('Your Twitter Handle', 'label for text input on settings screen', 'better-click-to-tweet'); ?></label></th>
 														<td><input type="text" name="bctt-twitter-handle" value="<?php echo get_option('bctt-twitter-handle'); ?>" /></td></tr>
 												<tr valign="top">        
-                                	        	    <th style="width: 200px;"><label><?php _e('Use Short URL?', 'better-click-to-tweet'); ?></label></th>
+                                	        	    <th style="width: 200px;"><label><?php _ex('Use Short URL?', 'label for checkbox on settings screen', 'better-click-to-tweet'); ?></label></th>
                                     	       	     	<td><input type="checkbox" name="bctt-short-url" value="1" <?php if ( 1 == get_option( 'bctt-short-url') ) echo 'checked="checked"'; ?>" /></td>	
                                  		       	</tr>
 											</table>

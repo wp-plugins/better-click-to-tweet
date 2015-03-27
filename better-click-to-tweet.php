@@ -135,7 +135,7 @@ function bctt_shortcode( $atts ) {
 
                     }
 
-                    $bcttBttn = sprintf( __( 'Click To Tweet', 'better-click-to-tweet' ) );
+                    $bcttBttn = sprintf( _x( 'Click To Tweet', 'Text for the box on the reader-facing box', 'better-click-to-tweet' ) );
 
 		    if( $url != 'no'){
 
@@ -206,7 +206,7 @@ register_uninstall_hook(    __FILE__, 'bctt_on_uninstall' );
 
 function bctt_options_link($links) {
 
-  $settingsText = sprintf( __( 'Settings', 'better-click-to-tweet')); 
+  $settingsText = sprintf( _x( 'Settings', 'text for the link on the plugins page', 'better-click-to-tweet')); 
 
   $settings_link = '<a href="options-general.php?page=better-click-to-tweet">'.$settingsText.'</a>'; 
 
