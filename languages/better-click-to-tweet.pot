@@ -156,10 +156,6 @@ msgstr ""
 msgid "Better Click To Tweet"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
-msgid "https://wordpress.org/plugins/better-click-to-tweet/"
-msgstr ""
-
 #. Description of the plugin/theme
 msgid ""
 "The only Click To Tweet plugin to add translation support. The only Click To "
@@ -169,10 +165,3 @@ msgid ""
 "BETTER."
 msgstr ""
 
-#. Author of the plugin/theme
-msgid "Ben Meredith"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "http://benandjacq.com"
-msgstr ""
