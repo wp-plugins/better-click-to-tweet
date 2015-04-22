@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org, translation-ready 
 Requires at least: 3.8
 Tested up to: 4.2
-Stable tag: 4.0
+Stable tag: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -103,6 +103,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 
 == Changelog ==
 
+= 4.1 =
+* the plugin now looks for a custom css stylesheet before falling back to the default style, giving designers and developers full access to the CSS, without disrupting user experience for folks just looking to plug and play.
+* added Finnish (fi) translation courtesy of Sampsa Daavitsainen at http://calltoaction.fi
+
 = 4.0 = 
 * complete overhaul of the visual editor button courtesy @norcross 
 * added the ability to make all links "nofollow" by adding the parameter `nofollow="yes"` to the shortcode.
@@ -168,6 +172,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 * Initial release. 
 
 == Upgrade Notice ==
+
+= 4.1 =
+* added full customizability (instructions forthcoming at http://benlikes.us/7r )
+* added Finnish translation.
 
 = 4.0 = 
 * complete overhaul of the visual editor button courtesy @norcross 

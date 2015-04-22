@@ -2,7 +2,7 @@
 /*
 Plugin Name: Better Click To Tweet
 Description: The only Click To Tweet plugin to add translation support. The only Click To Tweet plugin to take into account your Twitter username's length in truncating long tweets, or to correctly take into account non-Roman characters. Simply put, as Click To Tweet plugins go, this one is, well, BETTER. 
-Version: 4.0
+Version: 4.1
 Author: Ben Meredith
 Author URI: http://benandjacq.com
 Plugin URI: https://wordpress.org/plugins/better-click-to-tweet/
@@ -170,19 +170,37 @@ function bctt_shortcode( $atts ) {
 add_shortcode('bctt', 'bctt_shortcode');
 	
 	/* 
-	 * Load the stylesheet to style the output
+	 * Load the stylesheet to style the output. 
+	 * 
+	 * As of v4.1, defaults to a custom stylesheet 
+	 * located in the root of the uploads folder at wp-content/uploads/bcttstyle.css and falls 
+	 * back to the stylesheet bundled with the plugin if the custom sheet is not present.
 	 *
 	 * @since 0.1
 	 * 
 	*/
 	
 function bctt_scripts () {
+	
+	$dir = wp_upload_dir();
+	
+	$custom = file_exists( $dir['basedir'] . '/bcttstyle.css');
+	
+	if( $custom != 'true' ) { 
+	
+		wp_register_style( 'bcct_style', plugins_url( 'assets/css/styles.css', __FILE__ ), false, '1.0', 'all' );
+	
+		wp_enqueue_style('bcct_style');
+	
+	} else {
+	
+		wp_register_style( 'bcct_custom_style', $dir['baseurl'] . '/bcttstyle.css', false, '1.0', 'all' );
+	
+		wp_enqueue_style('bcct_custom_style');
+	}
+	
 
-	wp_register_style( 'bcct_style', plugins_url( 'assets/css/styles.css', __FILE__ ), false, '1.0', 'all' );
-
-	wp_enqueue_style('bcct_style');
-
-	};
+};
 	
 add_action('wp_enqueue_scripts', 'bctt_scripts');	
 	
