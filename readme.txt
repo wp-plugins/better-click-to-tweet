@@ -29,7 +29,8 @@ Huge thanks to Andrew Norcross @norcross for the help with making the plugin eve
 Translators:
 
 * Español (es_ES): Jordi Rosalez 
-* Serbian (sr_RS): [Borisa Djuraskovic](http://www.webhostinghub.com/ "Web Hosting Hub") 
+* Serbian (sr_RS): [Borisa Djuraskovic](http://www.webhostinghub.com/ "Web Hosting Hub")
+* Finnish/Suomi (fi): [Sampsa Daavitsainen](http://www.calltoaction.fi/ "CallToAction.fi") 
 
 == Installation ==
 
