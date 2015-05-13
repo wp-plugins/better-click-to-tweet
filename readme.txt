@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org, translation-ready 
 Requires at least: 3.8
 Tested up to: 4.2
-Stable tag: 4.1
+Stable tag: 4.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,7 +33,8 @@ Translators:
 
 * Español (es_ES): Jordi Rosalez 
 * Serbian (sr_RS): [Borisa Djuraskovic](http://www.webhostinghub.com/ "Web Hosting Hub")
-* Finnish/Suomi (fi): [Sampsa Daavitsainen](http://www.calltoaction.fi/ "CallToAction.fi") 
+* Finnish/Suomi (fi): [Sampsa Daavitsainen](http://www.calltoaction.fi/ "CallToAction.fi")
+* Russian (ru_RU): webbolt 
 
 == Installation ==
 
@@ -106,6 +107,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 4.1.1 = 
+* added Russian translation
+* added sample bcttstyle.css file (for moving to the root of the /uploads folder) to assets/css
 
 = 4.1 =
 * the plugin now looks for a custom css stylesheet before falling back to the default style, giving designers and developers full access to the CSS, without disrupting user experience for folks just looking to plug and play.
