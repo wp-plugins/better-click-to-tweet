@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org, translation-ready 
 Requires at least: 3.8
 Tested up to: 4.2
-Stable tag: 4.1.1
+Stable tag: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -107,6 +107,9 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 4.2 =
+* added the ability to specify a custom URL as a shortcode parameter. (more info at the power user tutorial at http://benlikes.us/7r )
 
 = 4.1.1 = 
 * added Russian translation
