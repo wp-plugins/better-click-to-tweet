@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org, translation-ready 
 Requires at least: 3.8
 Tested up to: 4.2
-Stable tag: 4.1
+Stable tag: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,14 +15,17 @@ Insert click to tweet boxes into your posts, simply and securely. This plugin is
 = The Best Click To Tweet Plugin on the Market, FREE! =
 
 This plugin allows you to easily create tweetable content for your readers. Using a simple shortcode, your selected text is highlighted and made tweetable. 
+
+* Now [fully customizable](http://benlikes.us/bcttcustom "power user guide customization instructions") if you know CSS.
+* Easily [remove the "via"](http://benlikes.us/7m "how to customize the better click to tweet plugin")
+* Selectively [remove the URL](http://benlikes.us/7r "power user guide") from the resulting Tweet
+* For the SEO-conscious: [make links nofollow.](http://benlikes.us/7r "power user guide")
+
 ><strong> Why Better?</strong><br>
->This plugin started as a complete retool of the "Click To Tweet" plugin by Todaymade. There are a number of improvements under the hood, namely correct character counting when dealing with non-Roman characters, providing multi-language support, and use of the official shortcode API (which means security and forward-compatibility)
+>This plugin started as a complete retool of the "Click To Tweet" plugin by Todaymade. In addition to the user-focused changes above, the under-the-hood changes include correct character counting when dealing with non-Roman characters, translation-readiness, and use of the official shortcode API (which means security and forward-compatibility)
 
-Version 3.0 adds an option to enable WordPress shortlinks instead of the full URL in the tweet. While this doesn't allow for any advantage in terms of number of characters, it does allow you to use this plugin in conjunction with a plugin like the [WP Bitly Plugin](https://wordpress.org/plugins/wp-bitly/ "WP Bit.ly") to track link clicks and status.
 
-Don't be scared to donate, if this plugin makes your blogging life any better.
-
-Also, developers, please hop in and suggest improvements. You can submit pull requests at the [github repo](https://github.com/Benunc/better-click-to-tweet "plugin github repo") for this plugin, or go through the official svn repo here. I'm also actively seeking translators to bring the usefulness of this plugin to non-English speakers. Please message me in the forums. 
+**Speaking of the area under the hood:** developers, please hop in and suggest improvements. You can submit pull requests at the [github repo](https://github.com/Benunc/better-click-to-tweet "plugin github repo") for this plugin. I'm also actively seeking translators to bring the usefulness of this plugin to non-English speakers. Please message me in the forums. 
 
 Huge thanks to Andrew Norcross @norcross for the help with making the plugin even better as of v4.0 with enhancements to the Visual Editor's button. But you can't blame him for any of the other code!
 
@@ -30,7 +33,8 @@ Translators:
 
 * Español (es_ES): Jordi Rosalez 
 * Serbian (sr_RS): [Borisa Djuraskovic](http://www.webhostinghub.com/ "Web Hosting Hub")
-* Finnish/Suomi (fi): [Sampsa Daavitsainen](http://www.calltoaction.fi/ "CallToAction.fi") 
+* Finnish/Suomi (fi): [Sampsa Daavitsainen](http://www.calltoaction.fi/ "CallToAction.fi")
+* Russian (ru_RU): webbolt 
 
 == Installation ==
 
@@ -103,6 +107,13 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 4.2 =
+* added the ability to specify a custom URL as a shortcode parameter. (more info at the power user tutorial at http://benlikes.us/7r )
+
+= 4.1.1 = 
+* added Russian translation
+* added sample bcttstyle.css file (for moving to the root of the /uploads folder) to assets/css
 
 = 4.1 =
 * the plugin now looks for a custom css stylesheet before falling back to the default style, giving designers and developers full access to the CSS, without disrupting user experience for folks just looking to plug and play.
