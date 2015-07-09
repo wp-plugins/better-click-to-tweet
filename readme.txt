@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org, translation-ready 
 Requires at least: 3.8
 Tested up to: 4.2
-Stable tag: 4.2
+Stable tag: 4.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,8 @@ Translators:
 * Serbian (sr_RS): [Borisa Djuraskovic](http://www.webhostinghub.com/ "Web Hosting Hub")
 * Finnish/Suomi (fi): [Sampsa Daavitsainen](http://www.calltoaction.fi/ "CallToAction.fi")
 * Russian (ru_RU): webbolt 
+* Swedish (sv_SE): [Stefan Nilsson](http://www.stefannilsson.nu/ "Stefannilsson.nu")
+* German (de_DE): [Christian Zumbrunnen](http://chruezundquer.ch/ "chruezundquer.ch")
 
 == Installation ==
 
@@ -96,7 +98,7 @@ Since that time Justin and the team over at Todaymade have rereleased a version 
 
 The bottom line for an end user is that both plugins are great, with the main difference being mine using the official WordPress shortcode API, and some other minor tweaks to the code. For example, my plugin adds some calculation based on the length of your Twitter handle to prevent truncated tweets from still being over 140 characters. 
 
-Also from an end user perspective, I am more active in the support forums than Justin (who has a paid product to support, which justifiably takes more of his time and energy), and you can count on my response and resolution to your issues! 
+Also from an end user perspective, I am more active in the support forums than Justin (who has a paid product to support, which justifiably takes more of his time and energy), and you can count on my response and resolution to your issues! <strong>To switch from Justin's plugin to mine, see the tutorial at [BenandJacq.com](http://benlikes.us/8o "migrate to Better Click To Tweet")</strong>
 
 = How can I help? =
 I want to maximize the usefulness of this plugin by translating it into multiple languages. So far I have included Spanish and Serbian. If you have experience translating .po files, please consider helping in that way. To include those translations in the official plugin, email me, or submit pull requests at Github.
@@ -107,6 +109,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 4.2.1 =
+* added German and Swedish translations, updated info in readme with link to instructions for migrating from Click To Tweet to Better Click To Tweet.
+* made minor change to the bcttstyle.css (sample) file that was bugging me on hover.
 
 = 4.2 =
 * added the ability to specify a custom URL as a shortcode parameter. (more info at the power user tutorial at http://benlikes.us/7r )
