@@ -39,10 +39,19 @@ class BCTT_TinyMCE {
 	 * @return [type] [description]
 	 */
 	public function tinymce_loader() {
+		add_filter( 'mce_external_languages', array( __class__, 'bctt_tinymce_languages' ) );
 		add_filter( 'mce_external_plugins', array( __class__, 'bctt_tinymce_core' ) );
 		add_filter( 'mce_buttons', array( __class__, 'bctt_tinymce_buttons' ) );
 	}
-
+	/**
+	 * loader for the language strings
+	 *
+	 */
+	public static function bctt_tinymce_languages( $bctt_locales) {
+    	$bctt_locales[ 'bctt' ] = plugin_dir_path( __FILE__ ) . '/languages/bctt-mce-locale.php';
+  		return $bctt_locales;
+	}
+	
 	/**
 	 * loader for the required JS
 	 *
