@@ -1,5 +1,9 @@
 <?php
 /**
+* 	This file dynamically creates MCE locales, based on .po/.mo files loaded in the plugin's translation folder.
+* 	It interfaces with the TinyMCE API using the tinyMCE.addI18n() function, 
+*	which adds a language pack to TinyMCE
+*
 * @var string $strings a JavaScript snippet to add another language pack to TinyMCE
 * @var string $mce_locale an ISO 639-1 formated string of the current language e.g. en, de...
 * @deprecated wp_tiny_mce() at wp-admin/includes/post.php (for versions prior WP 3.3)

@@ -28,7 +28,7 @@
 							label: editor.getLang( 'bctt.viaPrompt', 'Include "via"?'),
 						}
 					],
-					width: 500,
+					width: 800,
 					height: 120,
 					onsubmit: function( e ) {
 
