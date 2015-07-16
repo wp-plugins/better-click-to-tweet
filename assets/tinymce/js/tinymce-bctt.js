@@ -5,17 +5,17 @@
 		editor.addButton( 'bctt', {
 
 			text: '',
-			tooltip: 'Better Click To Tweet Shortcode Generator',
+			tooltip: editor.getLang( 'bctt.toolTip', 'Better Click To Tweet Shortcode Generator' ),
 			icon: 'bctt-tweet',
 			onclick: function() {
 				// Open window
 				editor.windowManager.open( {
-					title: 'Better Click To Tweet Shortcode Generator',
+					title: editor.getLang( 'bctt.windowTitle', 'Better Click To Tweet Shortcode Generator' ),
 					body: [
 						{
 							type: 'textbox',
 							name: 'tweet',
-							label: 'Tweetable Quote',
+							label: editor.getLang( 'bctt.tweetableQuote', 'Tweetable Quote' ),
 							multiline : true,
 							minHeight : 60
 						},
@@ -24,11 +24,11 @@
 							checked: true,
 							name: 'viamark',
 							value: true,
-							text: 'Add \"via @YourTwitterName\" to this tweet',
-							label: 'Include "via"?',
+							text: editor.getLang( 'bctt.viaExplainer', 'Add via @YourTwitterName to this tweet'),
+							label: editor.getLang( 'bctt.viaPrompt', 'Include "via"?'),
 						}
 					],
-					width: 500,
+					width: 800,
 					height: 120,
 					onsubmit: function( e ) {
 
