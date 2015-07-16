@@ -3,12 +3,12 @@ Contributors: ben.meredith@gmail.com
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ
 Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org, translation-ready 
 Requires at least: 3.8
-Tested up to: 4.2
-Stable tag: 4.2.1
+Tested up to: 4.3
+Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Insert click to tweet boxes into your posts, simply and securely. This plugin is regularly updated, translation-ready, and secure.
+Insert click to tweet boxes into your posts, simply and securely. This plugin is customizable, regularly updated, and future-proof.
 
 == Description ==
 
@@ -110,6 +110,10 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 
 == Changelog ==
 
+= 4.3 =
+* added translation support (internationalization or i18n) to the button on the visual editor. Now the entire plugin is translatable!
+* updated swedish, finnish, and spanish language files.
+
 = 4.2.1 =
 * added German and Swedish translations, updated info in readme with link to instructions for migrating from Click To Tweet to Better Click To Tweet.
 * made minor change to the bcttstyle.css (sample) file that was bugging me on hover.
@@ -190,6 +194,8 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 * Initial release. 
 
 == Upgrade Notice ==
+= 4.3 =
+* added translation support, updated three languages.
 
 = 4.1 =
 * added full customizability (instructions forthcoming at http://benlikes.us/7r )
