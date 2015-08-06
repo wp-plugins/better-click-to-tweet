@@ -1,28 +1,31 @@
 === Better Click To Tweet ===
 Contributors: ben.meredith@gmail.com
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ
-Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org, translation-ready 
+Tags: click to tweet, twitter, tweet, twitter plugin, Twitter boxes, share, social media, post, posts, plugin, auto post, bitly, bit.ly, yourls, yourls.org, translate-me, Español, Deutsch, Russian, Finnish, Svenska, Suomi, Italiano, русском, 
 Requires at least: 3.8
-Tested up to: 4.2
-Stable tag: 4.1
+Tested up to: 4.3
+Stable tag: 4.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Insert click to tweet boxes into your posts, simply and securely. This plugin is regularly updated, translation-ready, and secure.
+Insert click to tweet boxes into your posts, simply and securely. This plugin is customizable, regularly updated, and future-proof.
 
 == Description ==
 
 = The Best Click To Tweet Plugin on the Market, FREE! =
 
 This plugin allows you to easily create tweetable content for your readers. Using a simple shortcode, your selected text is highlighted and made tweetable. 
+
+* Now [fully customizable](http://benlikes.us/bcttcustom "power user guide customization instructions") if you know CSS.
+* Easily [remove the "via"](http://benlikes.us/7m "how to customize the better click to tweet plugin")
+* Selectively [remove the URL](http://benlikes.us/7r "power user guide") from the resulting Tweet
+* For the SEO-conscious: [make links nofollow.](http://benlikes.us/7r "power user guide")
+
 ><strong> Why Better?</strong><br>
->This plugin started as a complete retool of the "Click To Tweet" plugin by Todaymade. There are a number of improvements under the hood, namely correct character counting when dealing with non-Roman characters, providing multi-language support, and use of the official shortcode API (which means security and forward-compatibility)
+>This plugin started as a complete retool of the "Click To Tweet" plugin by Todaymade. In addition to the user-focused changes above, the under-the-hood changes include correct character counting when dealing with non-Roman characters, translation-readiness, and use of the official shortcode API (which means security and forward-compatibility)
 
-Version 3.0 adds an option to enable WordPress shortlinks instead of the full URL in the tweet. While this doesn't allow for any advantage in terms of number of characters, it does allow you to use this plugin in conjunction with a plugin like the [WP Bitly Plugin](https://wordpress.org/plugins/wp-bitly/ "WP Bit.ly") to track link clicks and status.
 
-Don't be scared to donate, if this plugin makes your blogging life any better.
-
-Also, developers, please hop in and suggest improvements. You can submit pull requests at the [github repo](https://github.com/Benunc/better-click-to-tweet "plugin github repo") for this plugin, or go through the official svn repo here. I'm also actively seeking translators to bring the usefulness of this plugin to non-English speakers. Please message me in the forums. 
+**Speaking of the area under the hood:** developers, please hop in and suggest improvements. You can submit pull requests at the [github repo](https://github.com/Benunc/better-click-to-tweet "plugin github repo") for this plugin. I'm also actively seeking translators to bring the usefulness of this plugin to non-English speakers. Please message me in the forums. 
 
 Huge thanks to Andrew Norcross @norcross for the help with making the plugin even better as of v4.0 with enhancements to the Visual Editor's button. But you can't blame him for any of the other code!
 
@@ -30,7 +33,11 @@ Translators:
 
 * Español (es_ES): Jordi Rosalez 
 * Serbian (sr_RS): [Borisa Djuraskovic](http://www.webhostinghub.com/ "Web Hosting Hub")
-* Finnish/Suomi (fi): [Sampsa Daavitsainen](http://www.calltoaction.fi/ "CallToAction.fi") 
+* Finnish/Suomi (fi): [Sampsa Daavitsainen](http://www.calltoaction.fi/ "CallToAction.fi")
+* Russian (ru_RU): webbolt 
+* Swedish (sv_SE): [Stefan Nilsson](http://www.stefannilsson.nu/ "Stefannilsson.nu")
+* German (de_DE): [Christian Zumbrunnen](http://chruezundquer.ch/ "chruezundquer.ch")
+* Italian (it_IT): [Luca at MoweCode](http://www.mowecode.com/ "www.mowecode.com")
 
 == Installation ==
 
@@ -92,7 +99,7 @@ Since that time Justin and the team over at Todaymade have rereleased a version 
 
 The bottom line for an end user is that both plugins are great, with the main difference being mine using the official WordPress shortcode API, and some other minor tweaks to the code. For example, my plugin adds some calculation based on the length of your Twitter handle to prevent truncated tweets from still being over 140 characters. 
 
-Also from an end user perspective, I am more active in the support forums than Justin (who has a paid product to support, which justifiably takes more of his time and energy), and you can count on my response and resolution to your issues! 
+Also from an end user perspective, I am more active in the support forums than Justin (who has a paid product to support, which justifiably takes more of his time and energy), and you can count on my response and resolution to your issues! <strong>To switch from Justin's plugin to mine, see the tutorial at [BenandJacq.com](http://benlikes.us/8o "migrate to Better Click To Tweet")</strong>
 
 = How can I help? =
 I want to maximize the usefulness of this plugin by translating it into multiple languages. So far I have included Spanish and Serbian. If you have experience translating .po files, please consider helping in that way. To include those translations in the official plugin, email me, or submit pull requests at Github.
@@ -103,6 +110,24 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 1. Becomes this in your blog post!
 
 == Changelog ==
+
+= 4.3.1 =
+*added Italian language
+
+= 4.3 =
+* added translation support (internationalization or i18n) to the button on the visual editor. Now the entire plugin is translatable!
+* updated swedish, finnish, and spanish language files.
+
+= 4.2.1 =
+* added German and Swedish translations, updated info in readme with link to instructions for migrating from Click To Tweet to Better Click To Tweet.
+* made minor change to the bcttstyle.css (sample) file that was bugging me on hover.
+
+= 4.2 =
+* added the ability to specify a custom URL as a shortcode parameter. (more info at the power user tutorial at http://benlikes.us/7r )
+
+= 4.1.1 = 
+* added Russian translation
+* added sample bcttstyle.css file (for moving to the root of the /uploads folder) to assets/css
 
 = 4.1 =
 * the plugin now looks for a custom css stylesheet before falling back to the default style, giving designers and developers full access to the CSS, without disrupting user experience for folks just looking to plug and play.
@@ -173,6 +198,8 @@ I want to maximize the usefulness of this plugin by translating it into multiple
 * Initial release. 
 
 == Upgrade Notice ==
+= 4.3 =
+* added translation support, updated three languages.
 
 = 4.1 =
 * added full customizability (instructions forthcoming at http://benlikes.us/7r )
